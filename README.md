@@ -1,6 +1,6 @@
 # Superfacility at NERSC
 
-## Learning about the Superfacility at NERSC based on the following questions:   
+## Learning about the Superfacility at NERSC based on the following questions
 
     1. What is Superfacility at NERSC?
     2. What does Superfacility API do?
