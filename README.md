@@ -21,7 +21,7 @@ There is a [API endpoint](https://api.nersc.gov/api/v1.2) or a [python interface
 
 
 ## What functions in Superfacility API are we interested in?
-I think we are interested in the following functions:
+I think we are interested in the following functions at the start:
 1. Upload and download small files.
 2. Transfer files via Globus.
 3. Submit jobs.
