@@ -12,7 +12,7 @@
     The API can be used to script jobs or workflows running against NERSC systems. The goal is to support everything from a simple script that submits a job to complex workflows that move files, check job progress and make advance compute time reservations.
 
 ## How to use the API?
-There is a [API endpoint](https://api.nersc.gov/api/v1.2) or a [python interface](https://docs.nersc.gov/services/sfapi/examples/). Notice that each endpoint requires different credentials. One can check the required credentials by clicking on the endpoint and then check `Extensions.x-nersc-scope`.
+There is a [API endpoint](https://api.nersc.gov/api/v1.2) or a [python interface](https://docs.nersc.gov/services/sfapi/examples/) and its [git repo](https://github.com/NERSC/sfapi_client). Notice that each endpoint requires different credentials. One can check the required credentials by clicking on the endpoint and then check `Extensions.x-nersc-scope`.
 
 * 4 credentials that can be used to access the API:
 ![Credentials](./img/credentials.png)
