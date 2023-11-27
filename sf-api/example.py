@@ -50,11 +50,11 @@ def run_cmd():
 
     sleep(10)
     task_id = json["task_id"]
-    read_result(task_id)
-    
+    read_api_result(task_id)
 
 
-def read_result(task_id):
+
+def read_api_result(task_id):
     # There is a delay between when the task is submitted and when the result is available
     url = f"https://api.nersc.gov/api/v1.2/tasks/{task_id}"
     resp = session.get(url)
@@ -75,7 +75,7 @@ def submit_slurm_job():
 
     sleep(10)
     task_id = json["task_id"]
-    read_result(task_id)
+    read_api_result(task_id)
 
 
 if __name__ == "__main__":
