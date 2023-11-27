@@ -27,11 +27,10 @@ def check_systems():
     # indent=2 for pretty print of json response 
     pprint(json, indent=2)
 
-def list_directories():
+def list_directories(dir_path):
     verb = "utilities/ls"    
     system = "perlmutter"
-    dir = "/global/homes/j/jlabtsai/swif"
-    url = f"https://api.nersc.gov/api/v1.2/{verb}/{system}/{dir}"
+    url = f"https://api.nersc.gov/api/v1.2/{verb}/{system}/{dir_path}"
     resp = session.get(url)
     json = resp.json()
     # indent=2 for pretty print of json response 
@@ -80,7 +79,7 @@ def submit_slurm_job():
 
 if __name__ == "__main__":
     # check_systems()
-    # list_directories()
-    # run_cmd()
-    submit_slurm_job()
+    # list_directories("/global/homes/j/jlabtsai/run-vk/slurm")
+    run_cmd()
+    # submit_slurm_job()
 
