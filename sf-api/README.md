@@ -7,7 +7,12 @@
 
 ## Basic usage
 ### Execute commands
-Please check the functions `run_cmd` and `read_cmd` in `sf-api/example.py`. Notice there will be a delay between the execution and the return of the results. 
+Please check the functions `run_cmd` in `sf-api/example.py`. To check the status of the job, insert the `task_id` to the function `read_api_result`. Notice that there will be a delay between the execution and the return of the results. 
+
+
+### Submit Slurm jobs
+To submit a slurm job, please check the function `submit_slurm_job` in `sf-api/example.py`. The job script should be prepared in advance. To check the status of the job, insert the `task_id` to the function `read_api_result`.
+
 
 
 
