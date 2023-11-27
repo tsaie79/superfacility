@@ -1,4 +1,4 @@
-# Try using superfacility API to interact with NERSC
+# Use the superfacility API to interact with NERSC
 
 ## Token authentication
 - To get a token, please check the readme file in the main page. 
