@@ -2,8 +2,8 @@ from authlib.integrations.requests_client import OAuth2Session
 from authlib.oauth2.rfc7523 import PrivateKeyJWT
 
 token_url = "https://oidc.nersc.gov/c2id/token"
-client_id = "nfc2xldgh4g6y"
-private_key = "/workspaces/superfacility/sf-api/key/red/priv_key.pem").read(\]
+client_id = "eu2ajfe5zyqfs"
+private_key = open("/workspaces/superfacility/sf-api/key/red/priv_key.pem").read()
 
 session = OAuth2Session(
     client_id, 
